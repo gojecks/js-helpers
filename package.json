@@ -1,24 +1,24 @@
 {
-  "name": "js.helpers",
-  "version": "1.0.0",
-  "description": "helpers and utils for javascript",
-  "main": "utils.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/gojecks/js.helpers.git"
-  },
-  "keywords": [
-    "js",
-    "helpers",
-    "jeli"
-  ],
-  "author": "Gojecks",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/gojecks/js.helpers/issues"
-  },
-  "homepage": "https://github.com/gojecks/js.helpers#readme"
+    "name": "js.helpers",
+    "version": "0.0.1",
+    "description": "helpers and utils for javascript",
+    "main": "utils.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/gojecks/js.helpers.git"
+    },
+    "keywords": [
+        "js",
+        "helpers",
+        "jeli"
+    ],
+    "author": "Gojecks",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/gojecks/js.helpers/issues"
+    },
+    "homepage": "https://github.com/gojecks/js.helpers#readme"
 }
