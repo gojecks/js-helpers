@@ -1,19 +1,20 @@
-import base64 from './utils/base64';
-import camelcase from './utils/camelcase';
-import cookie from './utils/cookie';
-import copy from './utils/copy';
-import copyfrom from './utils/copyfrom';
-import count from './utils/count';
-import expect from './utils/expect';
-import extend from './utils/extend';
-import hashcode from './utils/hashcode';
-import logger from './utils/logger';
-import makeuid from './utils/makeuid';
-import nodubs from './utils/nodubs';
-import serialize from './utils/serializer';
-import splitntrim from './utils/splitntrim';
-import toobject from './utils/toobject';
-import unserialize from './utils/unserialize';
+import base64 from './fns/base64';
+import camelcase from './fns/camelcase';
+import cookie from './fns/cookie';
+import copy from './fns/copy';
+import copyfrom from './fns/copyfrom';
+import count from './fns/count';
+import expect from './fns/expect';
+import extend from './fns/extend';
+import hashcode from './fns/hashcode';
+import logger from './fns/logger';
+import makeuid from './fns/makeuid';
+import nodubs from './fns/nodubs';
+import serialize from './fns/serializer';
+import splitntrim from './fns/splitntrim';
+import toobject from './fns/toobject';
+import unserialize from './fns/unserialize';
+import simpleBooleanParser from './fns/simpleBooleanParser';
 /**
  * helpers
  */
@@ -37,5 +38,7 @@ export {
     serialize,
     splitntrim,
     toobject,
-    unserialize
+    unserialize,
+    camelcase,
+    simpleBooleanParser
 }

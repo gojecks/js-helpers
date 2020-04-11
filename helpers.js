@@ -1,18 +1,18 @@
-import inarray from './utils/inarray';
-import isarray from './utils/isarray';
-import isboolean from './utils/isboolean';
-import isdefined from './utils/isdefined';
-import isdouble from './utils/isdouble';
-import isempty from './utils/isempty';
-import isequal from './utils/isequal';
-import isfloat from './utils/isfloat';
-import isfunction from './utils/isfunction';
-import isjsonstring from './utils/isjsonstring';
-import isnull from './utils/isnull';
-import isnumber from './utils/isnumber';
-import isobject from './utils/isobject';
-import isstring from './utils/isstring';
-import isundefined from './utils/isundefined';
+import inarray from './fns/inarray';
+import isarray from './fns/isarray';
+import isboolean from './fns/isboolean';
+import isdefined from './fns/isdefined';
+import isdouble from './fns/isdouble';
+import isempty from './fns/isempty';
+import isequal from './fns/isequal';
+import isfloat from './fns/isfloat';
+import isfunction from './fns/isfunction';
+import isjsonstring from './fns/isjsonstring';
+import isnull from './fns/isnull';
+import isnumber from './fns/isnumber';
+import isobject from './fns/isobject';
+import isstring from './fns/isstring';
+import isundefined from './fns/isundefined';
 
 export {
     inarray,
