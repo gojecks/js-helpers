@@ -16,11 +16,6 @@ import toobject from './fns/toobject';
 import unserialize from './fns/unserialize';
 import simpleBooleanParser from './fns/simpleBooleanParser';
 /**
- * helpers
- */
-import './helpers';
-
-/**
  * export utils
  */
 export {

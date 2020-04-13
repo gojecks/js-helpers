@@ -1,3 +1,4 @@
+import isobject from './isobject';
 /**
  * 
  * @param {*} objToInspect
@@ -7,7 +8,7 @@
  * container.contains(needle)
  */
 export default function(objToInspect) {
-    var isObject = objToInspect && (({}).toString).call(objToInspect) === "[object Object]";
+    var isObject = isobject(objToInspect);
     /**
      * 
      * @param {*} ins 

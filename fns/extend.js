@@ -41,3 +41,5 @@ function extend() {
 
     return extended;
 }
+
+export default extend;
