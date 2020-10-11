@@ -2,10 +2,6 @@
  * core extend Function
  */
 function extend() {
-    if (Object.assign) {
-        return Object.assign.apply(Object, arguments);
-    }
-
     var extended = {};
     var deep = (typeof arguments[0] === "boolean");
     var i = 0;
@@ -14,6 +10,13 @@ function extend() {
     if (deep) {
         i++;
         deep = arguments[0];
+    }
+
+    /**
+     * use Native Object.assign if not deep clone
+     */
+    if (!deep && Object.assign) {
+        return Object.assign.apply(Object, arguments);
     }
 
     // check if source is Array or Object

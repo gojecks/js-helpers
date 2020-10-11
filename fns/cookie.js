@@ -4,6 +4,21 @@
  * @param {*} value 
  * @param {*} options 
  */
+export default function(name, value) {
+    if (typeof value != "undefined") {
+        setCookie.apply(null, arguments);
+    } else {
+        return getCookie(name);
+    }
+};
+
+
+/**
+ * 
+ * @param {*} name 
+ * @param {*} value 
+ * @param {*} options 
+ */
 function setCookie(name, value, options) {
     options = options || {};
     if (value === null) {
@@ -45,23 +60,4 @@ function getCookie(name) {
         }
     }
     return cookieValue
-}
-
-/**
- * 
- * @param {*} name 
- * @param {*} value 
- * @param {*} options 
- */
-export default function(name, value) {
-    if (typeof value != "undefined") {
-        setCookie.apply(null, arguments);
-    } else {
-        return getCookie(name);
-    }
-}
-
-export {
-    getCookie,
-    setCookie
 }

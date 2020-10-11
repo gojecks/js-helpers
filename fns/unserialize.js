@@ -7,8 +7,20 @@ export default function(par) {
         .reduce(function(accum, val) {
             if (val) {
                 var splitPairs = val.split('=');
-                accum[splitPairs[0]] = JSON.parse(splitPairs[1]);
+                accum[splitPairs[0]] = parseJSON(splitPairs[1]);
             }
             return accum;
         }, {});
+
+    /**
+     * 
+     * @param {*} str 
+     */
+    function parseJSON(str) {
+        try {
+            str = JSON.parse(str);
+        } catch (e) {}
+
+        return str;
+    }
 }

@@ -13,6 +13,8 @@ import isnumber from './fns/isnumber';
 import isobject from './fns/isobject';
 import isstring from './fns/isstring';
 import isundefined from './fns/isundefined';
+import addToArray from './fns/addToarray';
+import removeFromArray from './fns/removeFromArray';
 
 export {
     inarray,
@@ -29,5 +31,7 @@ export {
     isnumber,
     isobject,
     isstring,
-    isundefined
+    isundefined,
+    addToArray,
+    removeFromArray
 }

@@ -4,7 +4,7 @@
    */
   export default function(val) {
       if (val && typeof val === 'object') {
-          return Object.keys(val).length === 0;
+          return Object.values(val).length < 1;
       }
 
       return !val || val === '';
