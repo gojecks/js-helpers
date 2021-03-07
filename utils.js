@@ -1,5 +1,7 @@
 import base64 from './fns/base64';
 import camelcase from './fns/camelcase';
+import pascalCase from './fns/pascalcase';
+import kebabCase from './fns/kebabcase';
 import cookie from './fns/cookie';
 import copy from './fns/copy';
 import copyfrom from './fns/copyfrom';
@@ -35,5 +37,7 @@ export {
     toobject,
     unserialize,
     camelcase,
+    pascalCase,
+    kebabCase,
     simpleBooleanParser
 }
