@@ -1,5 +1,5 @@
 {
-    "name": "js-helpers",
+    "name": "@jeli/js-helpers",
     "version": "0.0.1",
     "description": "helpers and utils for javascript",
     "main": "utils.js",
