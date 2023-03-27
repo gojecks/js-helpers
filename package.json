@@ -1,8 +1,13 @@
 {
-    "name": "@jeli/js-helpers",
-    "version": "0.0.1",
+    "name": "@jeli/helpers",
+    "version": "0.0.2",
     "description": "helpers and utils for javascript",
-    "main": "utils.js",
+    "main": "index.js",
+    "files": [
+        "fns",
+        "patterns",
+        "*.js"
+    ],
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
     },
