@@ -15,6 +15,7 @@ import isstring from './fns/isstring';
 import isundefined from './fns/isundefined';
 import addToArray from './fns/addToarray';
 import removeFromArray from './fns/removeFromArray';
+import moveItemInArray from './fns/moveItemInArray';
 
 export {
     inarray,
@@ -33,5 +34,6 @@ export {
     isstring,
     isundefined,
     addToArray,
-    removeFromArray
+    removeFromArray,
+    moveItemInArray
 }
