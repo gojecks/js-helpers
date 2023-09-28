@@ -17,6 +17,7 @@ import splitntrim from './fns/splitntrim';
 import toobject from './fns/toobject';
 import unserialize from './fns/unserialize';
 import simpleBooleanParser from './fns/simpleBooleanParser';
+import sizetounit from './fns/sizetounit';
 /**
  * export utils
  */
@@ -39,5 +40,6 @@ export {
     camelcase,
     pascalCase,
     kebabCase,
-    simpleBooleanParser
+    simpleBooleanParser,
+    sizetounit
 }
